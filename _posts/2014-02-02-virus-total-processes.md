@@ -1,8 +1,8 @@
 ---
 layout: post
-categories: [example]
-tags: [table]
-class: "page"
+categories: [python]
+tags: [virustotal, virus, total, python, processes, scan, malware, virus]
+class: page
 ---
 
 ![Example of Process List](http://i.imgur.com/5oHMeMz.png)

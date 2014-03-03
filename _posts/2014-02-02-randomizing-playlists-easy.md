@@ -1,8 +1,9 @@
 ---
 layout: post
-categories: [example]
-tags: [table]
-class: "python"
+title: Randomizing Playlists Easily
+categories: [python]
+tags: [python, music, playlist, random, easy]
+class: python
 ---
 
 ##The Reference

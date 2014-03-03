@@ -1,8 +1,8 @@
 ---
 layout: post
-categories: [example]
-tags: [table]
-class: "php"
+categories: [php]
+tags: [php, frameworks, compare, comparison, best, worst, practices, reasons]
+class: php
 ---
 
 ## Reasons For
