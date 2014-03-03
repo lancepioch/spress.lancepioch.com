@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+{% include 'head.html' %}
+    </head>
+<body>
+{% include 'nav.html' %}
+    {% block content %}
+        {{ page.content }}
+    {% endblock %}
+    <footer>Copyright &copy; <a href="https://plus.google.com/+LancePioch?rel=author">Lance Pioch</a> 2014</footer>
+</body>
+</html>

@@ -1,0 +1,18 @@
+---
+layout: page
+---
+
+	<section class="blog">
+		<header>
+			<span class="icon"><i class="fa fa-folder-open"></i></span>
+			<h1>Posts</h1>
+		</header>
+	</section>
+	{% for post in site.posts %}
+	<section class="{% if loop.index % 3 == 1 %}left {% elseif loop.index % 3 == 0 %}right {% endif %}third {{ post.class | default('services') }} link">
+		<a href="{{ post.url|trim('/') }}">
+			<span class="icon"><i class="fa fa-pencil"></i></span>
+			<h2>{{ post.title|title }}</h2>
+		</a>
+	</section>
+	{% endfor %}
