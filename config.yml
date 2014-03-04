@@ -6,46 +6,12 @@ url: /
 
 permalink: "posts/:title.html"
 
-# Comments in posts
-comments:
-    enabled: true
-    disqus_shortname: lancepioch
-
-# Information about author
-author:
-    name: Lance Pioch
-
-    # Social networks
-    twitter: lancepioch
-    github: https://github.com/lancepioch/Spress
-    bitbucket: https://bitbucket.com/lancepioch
-    facebook: https://facebook.com/lancepioch
-    linkedin: https://linkedin.com/in/lancepioch
-    gplus: https://gooogle.com/+lancepioch
-
 # RSS feed
 feed:
-    max_item: 10
+    max_item: 25
 
 # Facebook Open Graph
 open_graph:
     locale: en_US
-
-# Code highlight for <pre> and <code> tags
-# Powered by http://highlightjs.org/
-code_highlight: true
-
-# Site validation
-google_verify:
-bing_verify:
-
-# Page menus
-top_menu:
-    - { name: Home, url: http://lancepioch.github.io/Spress-example }
-
-bottom_menu:
-    - { name: Go to Spresso theme web, url: https://github.com/lancepioch/Spress-theme-spresso }
-
-paginate: 2
 
 exclude: ['README.md', 'LICENSE','composer.json']
