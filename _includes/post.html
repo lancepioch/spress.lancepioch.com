@@ -1,7 +1,8 @@
     <section class="article-header">
         <header>
             <span class="icon"><i class="fa fa-pencil"></i></span>
-            <h1>{{ post.title|title }}</h1>
+            <h1>{{ post.name|default(post.title|title) }}</h1>
+            <h3>Post written on <time pubdate datetime="{{ post.date | date("Y-m-d") }}">{{ post.date | date("F jS, Y") }}</time> by {{ site.author.name }}</h3>
         </header>
     </section>
     <section class="article-body">

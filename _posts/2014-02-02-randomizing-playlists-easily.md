@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Randomizing Playlists Easily
+name: Randomizing Playlists
 categories: [python]
 tags: [python, music, playlist, random, easy]
 class: python

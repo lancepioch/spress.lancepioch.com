@@ -1,5 +1,6 @@
 ---
 layout: post
+name: VirusTotal Process Scan
 categories: [python]
 tags: [virustotal, virus, total, python, processes, scan, malware, virus]
 class: page

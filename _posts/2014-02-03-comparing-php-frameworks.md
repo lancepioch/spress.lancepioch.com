@@ -1,5 +1,6 @@
 ---
 layout: post
+name: Using PHP Frameworks
 categories: [php]
 tags: [php, frameworks, compare, comparison, best, worst, practices, reasons]
 class: php
