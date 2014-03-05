@@ -1,19 +1,20 @@
+<div itemscope itemtype="http://schema.org/Article">
     <section class="article-header">
         <header>
             <span class="icon"><i class="fa fa-pencil"></i></span>
-            <h1>{{ post.name|default(post.title|title) }}</h1>
-            <h3>Post written on <time pubdate datetime="{{ post.date | date("Y-m-d") }}">{{ post.date | date("F jS, Y") }}</time> by {{ site.author.name }}</h3>
+            <h1 itemprop="name">{{ post.name|default(post.title|title) }}</h1>
+            <h3>Article written on <time pubdate datetime="{{ post.date | date("Y-m-d") }}">{{ post.date | date("F jS, Y") }}</time> by <span itemprop="author">Lance Pioch</span></h3>
         </header>
     </section>
     <section class="article-body">
-        <div>
+        <div itemprop="articleBody">
             {{ post.content }}
         </div>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/styles/monokai_sublime.min.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/highlight.min.js"></script>
         <script>hljs.initHighlighting();</script>
     </section>
-    <section class="article-comments">
+    <section class="article-comments" itemprop="comment">
         <header>
             <span class="icon"><i class="fa fa-comments"></i></span>
         </header>
@@ -21,3 +22,4 @@
         <script type="text/javascript" src="https://go.disqus.com/embed.js" async></script>
         <div id="disqus_thread"></div>
     </section>
+</div>
