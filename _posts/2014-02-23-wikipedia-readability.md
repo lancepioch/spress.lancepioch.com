@@ -5,7 +5,7 @@ tags: [css, wiki, wikipedia, readability, golden, ratio, style]
 class: services
 ---
 
-[![Preview](http://i.imgur.com/5aTnUwz.jpg?1)](http://i.imgur.com/5aTnUwz.jpg)
+![Wikipedia](http://i.imgur.com/5aTnUwz.jpg)
 
 ##Removing Margins and Sidebars
 
