@@ -5,7 +5,7 @@ tags: [css, wiki, wikipedia, readability, golden, ratio, style]
 class: services
 ---
 
-![Wikipedia](http://i.imgur.com/5aTnUwz.jpg)
+![Wikipedia](/images/wordpress-compare-css.jpg)
 
 ##Removing Margins and Sidebars
 

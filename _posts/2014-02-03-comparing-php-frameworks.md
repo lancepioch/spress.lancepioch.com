@@ -30,13 +30,10 @@ Changes are, you have an application that requires a user to login, or to authen
 
 Unless you're utilizing [Phalcon](http://phalconphp.com), then most likely you will see noticeable performance hits of as low as 200ms to as high as 2000ms. Each framework has its own benchmarks and speed comparisons, but sometimes it really does matter if have the need for speed. Serving up pages faster doesn't just mean benefits for your users, but it also means that your web server isn't spending as much time with other users as it could be.
 
-![Peformance Benchmark of PHP Frameworks][1]
+![Peformance Benchmark of PHP Frameworks][/images/performance-benchmark-of-php-frameworks.png]
 
 If you're running a processing intensive application or do not have a majority of users, then the extra hundred milliseconds isn't going to harm anyone. However if you have hundreds of people every several minutes, then it could cut your bill in half if you're using a server with a very expensive processor.
 
 ### Others' Mistakes
 
 Whether you like it or not, you'll always be using someone else's code, guaranteed or your money back. But whether or not you are a beginner or an expert of 30 years, there's always mistakes to be made, by you and everyone else.
-
-
-  [1]: http://i.imgur.com/U5VxlOi.png

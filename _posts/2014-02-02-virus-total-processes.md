@@ -6,7 +6,7 @@ tags: [virustotal, virus, total, python, processes, scan, malware, virus]
 class: page
 ---
 
-![Example of Process List](http://i.imgur.com/5oHMeMz.png)
+![Example of Process List](/images//process-list-virustotal-python-example.png)
 
 ## The Catalyst
 
