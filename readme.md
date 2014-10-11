@@ -1,5 +1,6 @@
-Must have Spress (yosymfony/spress) installed, then run:
+`composer install`
+`_plugins/vendor/bin/spress site:build`
 
-`spress site:build`
+(you may require php directive in front)
 
-Output is generated in "./_site"
+Output is generated in "./public"

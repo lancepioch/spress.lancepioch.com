@@ -3,6 +3,7 @@ description: "Lance Pioch is a very experienced developer and programmer."
 keywords: ["lance", "pioch", "programmer", "developer", "entrepreneur"]
 
 url: /
+destination: public
 
 permalink: "posts/:title.html"
 

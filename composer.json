@@ -1,0 +1,14 @@
+{
+	"name": "lancepioch/spress.lancepioch.com",
+	"description": "Lance Pioch Website",
+	"keywords": ["spress", "lance", "pioch"],
+	"license": "MIT",
+	"require": {
+		"yosymfony/spress": "1.0.3"
+	},
+	"config": {
+        "vendor-dir": "_plugins/vendor",
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
