@@ -15,4 +15,4 @@ feed:
 open_graph:
     locale: en_US
 
-exclude: ['README.md', 'LICENSE','composer.json']
+exclude: ['readme.md', 'LICENSE', 'composer.json', 'composer.lock', 'public']
