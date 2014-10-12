@@ -91,6 +91,14 @@ code {
 	overflow: auto;
 }
 
+table {
+	width: 100%;
+}
+
+td {
+	text-align: center;
+}
+
 section {
 	width: 100%;
 	height: auto;
