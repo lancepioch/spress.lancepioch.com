@@ -83,7 +83,7 @@ a:hover  {
 	text-decoration: none;
 }
 
-p a {
+.article-body a {
 	border-bottom: 1px dashed;
 }
 
