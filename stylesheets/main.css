@@ -220,9 +220,11 @@ section.quarter.right { margin-left: 10px; margin-right: 0px; }
 .article-body { background-color: #34495e; }
 .article-comments { background-color: #7492af; }
 
-.cs { background-color: #5a25a2; }
-.java { background-color: #e76f00; }
-.php { background-color: #6e03c1; }
+.cs { background-color: #178600; }
+.css { background-color: #563d7c; }
+.java { background-color: #b07219; }
+.js { background-color: #f1e05a; }
+.php { background-color: #4F5D95; }
 .python { background-color: #3581ba; }
 
 .twitter { background-color: #55acee; }
