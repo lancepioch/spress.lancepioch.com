@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: [css]
-tags: [css, wiki, wikipedia, readability, golden, ratio, style]
+tags: [css, wiki, readability, golden, ratio, style]
 class: services
 ---
 
