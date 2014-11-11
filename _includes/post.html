@@ -1,7 +1,6 @@
 <div itemscope itemtype="http://schema.org/Article">
     <section class="article-header">
         <header>
-            <span class="icon"><i class="fa fa-pencil"></i></span>
             <h1 itemprop="name">{{ post.name|default(post.title|title) }}</h1>
             <h3>Article written on <time pubdate datetime="{{ post.date | date("Y-m-d") }}">{{ post.date | date("F jS, Y") }}</time> by <span itemprop="author">Lance Pioch</span></h3>
         </header>

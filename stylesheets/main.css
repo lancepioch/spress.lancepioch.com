@@ -133,6 +133,7 @@ section.quarter.right { margin-left: 10px; margin-right: 0px; }
 
 .link {
 	padding: 0px;
+	text-align: center;
 }
 
 .link:hover, nav li:hover {
@@ -162,6 +163,10 @@ section.quarter.right { margin-left: 10px; margin-right: 0px; }
 	width: 65%;
 	height: 100%;
 	float: right;
+}
+
+#message > header {
+	text-align: center;
 }
 
 #message button {
