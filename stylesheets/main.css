@@ -304,6 +304,9 @@ section > div img {
 		margin-left: 0px;
 		margin-right: 0px;
 	}
+	h1, h2, h3 {
+		text-align: center;
+	}
 }
 
 @media (max-width: 450px) {
