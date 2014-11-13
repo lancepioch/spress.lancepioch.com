@@ -276,6 +276,19 @@ section > div img {
 		margin-left: 0px;
 		margin-right: 0px;
 	}
+	nav > ul {
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+	}
+	nav > ul > li {
+		float: none;
+		display: table-cell;
+		text-align: center;
+	}
+	nav > ul > li > a {
+		padding: 10px;
+	}
 }
 
 @media (max-width: 700px) {
@@ -320,5 +333,13 @@ section > div img {
 		width: 100%;
 		margin-left: 0px;
 		margin-right: 0px;
+	}
+	nav > ul {
+		display: block;
+		width: 100%;
+	}
+	nav > ul > li {
+		float: left;
+		display: list-item;
 	}
 }
