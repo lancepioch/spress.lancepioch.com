@@ -242,8 +242,8 @@ section.quarter.right { margin-left: 10px; margin-right: 0px; }
 .linkedin { background-color: #0181B2; }
 .google { background-color: #C63D2D; }
 
-section > div img {
-	height: 100%;
+section > div > p > img {
+	max-width: 100%;
 }
 
 .icon {
@@ -312,6 +312,9 @@ section > div img {
 	}
 	#main {
 		height: auto;
+	}
+	#main > div > img {
+		height: 100%;
 	}
 	.social {
 		line-height: 75px;
