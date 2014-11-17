@@ -39,8 +39,6 @@ The bit shift is simply a division by 2 and dropping the remainder all in one st
 
 Most languages have their own version of an array shuffle that is optimized for that language. It's very wise to acknowledge and use these implementations for performance reasons. Here's an example in Python using the builtin random module.
 
-### Code:
-
     import random
 
 	def randomize(playlist):

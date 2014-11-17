@@ -26,7 +26,6 @@ Since the output is spaced out from each other, rather than tabs, we'll have to 
 
 We're going to also make sure that the program's path is greater than one in length to prevent system processes from getting caught in there (that have no actual file location). Also to make sure there are not any duplicate file paths, it's not really necessary to submit the same exact file hash multiple times. Finally make sure to strip off all that extra empty spaces off the strings.
 
-### Code:
     import subprocess
     
     def getProcesses():
@@ -54,7 +53,6 @@ VirusTotal says that they accept md5, sha1, and sha256 hashes of files. I chose 
 
 Best way to get a file's hash? Well for all I know, you could be running a huge game or some other process. We need a reliable way to parse through a file's contents and hash it. A little bit of searching turns up this [StackOverflow answer](http://stackoverflow.com/questions/3431825/python-generating-a-md5-checksum-of-a-file). The only difference is that we want the hexdigest instead of the actual binary.
 
-### Code:
     def hashFile(afile, hasher, blocksize=65536):
         buf = afile.read(blocksize)
         while len(buf) > 0:
@@ -66,7 +64,6 @@ This function takes a File (object) handle, a hashlib hashing function, and an o
 
 Here's a small helper function to demonstrate this.
 
-### Code:
     import hashlib
     
     def sha(filepath):
@@ -76,7 +73,6 @@ Here's a small helper function to demonstrate this.
 
 I'm honestly going to just direct you to this great article, "[Parallelism in one line](https://medium.com/building-things-on-the-internet/40e9b2b36148)" and implement the very simple solution they have. They have explained it very well.
 
-### Code:
     from multiprocessing.dummy import Pool as ThreadPool
     
     def hashParallel(paths, threads=2):
@@ -98,7 +94,6 @@ In three easy steps, you can have access to your very own, limited api key. Yes,
 
 You can find out most of this information on their website. We need a comma separated string containing the hashes, and the apikey to post to their api url which is `https://www.virustotal.com/vtapi/v2/file/report`. We'll be using urllib2 to send the request and urllib to encode the parameters.
 
-### Code:
     import urllib, urllib2
     
     def filesReport(apikey, hashlist):
@@ -115,7 +110,6 @@ You can find out most of this information on their website. We need a comma sepa
 
 From that request, we get some very nice json. Using the built in json module, we can use the `json.loads` function to translate the request (string) into an object. There all we are looking for is the `positives` and the `total` keys.
 
-### Code:
     import json
     
     if __name__ == "__main__":

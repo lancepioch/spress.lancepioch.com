@@ -87,6 +87,11 @@ a:hover  {
 	border-bottom: 1px dashed;
 }
 
+pre:before {
+	content: "Code: ";
+	font-size: 18px;
+}
+
 code {
 	overflow: auto;
 }

@@ -15,7 +15,8 @@ There's a lot of not too useful content lingering all over. Here's the tags I re
 2. There's a huge unnecessary top margin space. Because of the url bar, tabs, and bookmarks, the content is already pushed down to eye level, so there goes #mw-page-base.
 3. Unless you're going to random pages or changing languages a lot, you'll probably never use the sidebar at all. It just conflicts with the main usage of the site, say farewell to #mw-panel.
 
-### Code:
+We can remove all of this bloat very simply:
+
     #mw-head, #mw-page-base, #mw-panel {
         display: none;
     }
@@ -26,7 +27,6 @@ Since I'm more used to the 960px grid format, I decided to stick with that. Then
 
 For me it calculated 26px when I used 13px for the font size. I eyeballed it and decreased it to 24px to give it a nice feel. I also adjusted the paragraph margins so that it's easy again to tell them apart.
 
-### Code:
     #content {
         margin: 0 auto;
         width: 960px;
