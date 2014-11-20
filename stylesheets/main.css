@@ -285,6 +285,9 @@ section > div > p > img {
 		margin-left: 0px;
 		margin-right: 0px;
 	}
+	section.third.placeholder {
+		display: none;
+	}
 	nav > ul {
 		display: table;
 		table-layout: fixed;
