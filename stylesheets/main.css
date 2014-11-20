@@ -282,8 +282,7 @@ section > div > p > img {
 	}
 	section.third, section.third.left, section.third.right {
 		width: 100%;
-		margin-left: 0px;
-		margin-right: 0px;
+		margin: 10px 0 0 0;
 	}
 	section.third.placeholder {
 		display: none;
@@ -329,8 +328,7 @@ section > div > p > img {
 	}
 	section.half.left, section.half.right {
 		width: 100%;
-		margin-left: 0px;
-		margin-right: 0px;
+		margin: 10px 0 0 0;
 	}
 	h1, h2, h3 {
 		text-align: center;
